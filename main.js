@@ -1,8 +1,20 @@
-// camel case
-var myFavoriteNumber;
+// var colors = ["red", "yellow", "orange"];
 
-// Partial case
-var MyFavoriteNumber;
+// alert(colors[2]);
 
-// underscore
-var my_favorite_number;
+// var colors = new Array("red", "yellow", "orange");
+
+// alert(colors[2]);
+
+// colors.push("green");
+
+// colors.reverse();
+
+// alert(colors[colors.length - 2]);
+
+var promise = {
+  var: "text",
+  array: [1, 2, 3, 4]
+};
+
+alert(promise.var);
