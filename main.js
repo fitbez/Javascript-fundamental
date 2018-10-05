@@ -24,3 +24,14 @@ function changeBackground(x) {
   var body = document.getElementById("body");
   body.style.backgroundColor = x.value;
 }
+
+function validateForm() {
+  var firstName = document.forms["myForm"]["firstName"].value;
+  if (firstName == null || firstName == "") {
+    alert("first name is required");
+  }
+
+  if (firstName.length < 3) {
+    alert("First name should at least be three letters");
+  }
+}
