@@ -12,9 +12,9 @@
 
 // alert(colors[colors.length - 2]);
 
-var promise = {
-  var: "text",
-  array: [1, 2, 3, 4]
-};
+// var promise = {
+//   var: "text",
+//   array: [1, 2, 3, 4]
+// };
 
-alert(promise.var);
+// alert(promise.var);
