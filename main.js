@@ -18,3 +18,9 @@
 // };
 
 // alert(promise.var);
+
+function changeBackground(x) {
+  console.log("Hello");
+  var body = document.getElementById("body");
+  body.style.backgroundColor = x.value;
+}

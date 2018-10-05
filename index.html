@@ -10,7 +10,7 @@
     <script src="main.js"> </script>
 </head>
 
-<body>
+<body id='body'>
     <div class="header">
         <h1>Learning JavaScript</h1>
 
@@ -31,11 +31,10 @@
         <br />
         <div>
             <label>Background</label>
-            <select name="background" id="background">
+            <select name="background" id="background" onchange="changeBackground(this)">
                 <option value="red">Red</option>
                 <option value="Blue">Blue</option>
                 <option value="Green">Green</option>
-
             </select>
         </div>
         <br />
